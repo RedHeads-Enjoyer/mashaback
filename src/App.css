@@ -3,6 +3,8 @@
 }
 
 .Timers {
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
   display: flex;
   flex-wrap: wrap;
