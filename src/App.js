@@ -12,7 +12,7 @@ function App() {
         milliseconds: 0,
     });
     const [startTime, setStartTime] = useState(new Date().getTime()); // Get the current time
-    const targetDate = new Date('2024-12-05T10:00:00.000Z'); // Define targetDate outside of useEffect
+    const targetDate = new Date('2024-11-28T10:00:00.000Z'); // Define targetDate outside of useEffect
 
     useEffect(() => {
         const diff = targetDate.getTime() - startTime;
